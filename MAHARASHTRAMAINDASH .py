@@ -42,6 +42,8 @@ color_scale = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b',
 # Create the Dash app with external stylesheets
 app = dash.Dash(__name__)
 
+server=app.server
+
 # Define a function to convert the day number to date string
 def day_to_date(day):
     date = pd.to_datetime('2022-01-01') + pd.DateOffset(days=int(day) - 1)
