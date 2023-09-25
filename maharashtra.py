@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 import mplcursors
 import os
 
-data = pd.read_csv('MaharashtraFinal.csv', na_values=['NA', 'NaN', 'N/A', 'nan', ''])
+data = pd.read_csv('Maharashtra_Final.csv', na_values=['NA', 'NaN', 'N/A', 'nan', ''])
 
 # Create a color scale for stations
 custom_colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd', '#8c564b', '#e377c2', '#7f7f7f', '#bcbd22', '#17becf']
